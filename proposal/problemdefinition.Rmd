@@ -9,5 +9,34 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
+The useR! conference has been successfully managed for over a decade by local
+organizers. Although knowledge and code is passed on from one year to the next,
+each time the local organizers set up a new website, on a new domain, and set 
+up their own way to manage abstract submissions, participant registration and
+conference organization. This means each year a lot of effort, volunteer or paid
+out of the conference budget, is spent on setting up the conference management 
+system. Participants often have to adjust to a new interface and may find it 
+difficult to find information or use the system. Issues identified one year may 
+never be fixed, or their solutions may not be carried through to the next year.
+
+The handling and reviewing of abstracts has been dealt with separately. 
+Solutions for doing this include using Google Sheets to assign reviewers and
+allocate ratings, and using a system built by the organizers of useR! 2015 to
+allow reviewers to view each abstract and add comments. As the number of 
+submissions grows (~350 abstracts for useR! 2016) a more sophisticated system
+is needed to allocate reviewers and record reviews.
+
+Establishing a centralized conference management system would allow a 
+fully-featured conference management system to be developed, with consistency 
+from one year to the next. This would reduce the burden on local organisers
+and pave the way for future developments of useR!, such as more centralized/
+outsourced administration, or satellite conferences.
+
+Recently the R Consortium supported the creation of the new satRdays conference
+series. In this case centralized conference management was an objective from the
+start. However....[issues here!].
+
+As both R Consortium supported conferences have a need for the development of
+a conference management system we have joined forces on this proposal.
 
 
