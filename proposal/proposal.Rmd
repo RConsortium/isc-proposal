@@ -7,6 +7,13 @@ This is where the proposal should be outlined.
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
+Our proposal is to evaluate a number of open source conference management 
+systems to assess their suitability for use with useR! and satRdays. We will 
+set up local versions of these systems to test their functionality and ease of 
+use for all roles (systems administrator, local organizer, 
+program chair, reviewer, conference participant). A system will be selected and
+a production system set up, with a view to be ready for useR! 2018 and the next
+satRdays conference [or for use after satRdays trial period?]
 
 ## Detail
 <!--
@@ -18,3 +25,65 @@ Depending on project type the detail section should include:
  - [ ] Architecture
  - [ ] Assumptions
 -->
+
+### Requirements
+
+The features we are looking for in a conference management system are listed 
+below, essential features are marked with an asterisk.
+
+Software
+ - Open source*
+ - Actively maintained*
+ - Well documented
+ - Free to use for conferences charging participants
+ - Extensible by proposal participants
+
+Abstract management
+ - Handles abstract submission, with email notification*
+ - Allows markdown in abstracts
+ - Allows submitters to edit abstracts
+ - System to assign abstracts to reviewers automatically (e.g. by topic) and/or
+ manually (by program chair(s))*
+ - Custom review decisions
+ - Handle special submissions, e.g. scholarship applications
+ 
+Scheduling
+ - Tools to create conference schedule*
+ - Drag-and-drop scheduling
+ - Conflict management (of topics or people)
+ 
+Participant management
+ - Register participants, including accepting payments*
+ - Participant accounts to make it easy to participate in multiple conferences
+ - Ability to email all participants
+ - Personal schedules or integration with services such as 
+ http://conference4me.psnc.pl/
+ 
+Conference management
+ - Template for conference website, suitable for different devices, secure and
+ accessible to visually impaired*
+ - Hosting of presentation slides
+ - Ability to clone conference for recurring event
+ 
+Other benefits
+
+Each system will likely have other non-essential benefits, e.g. event evaluation
+surveys, automated email reminders, time zone support, etc that could also be 
+taken into account when comparing systems.
+
+### Evaluation of Conference Managements
+
+We have identified the following conference management systems that appear to 
+meet most if not all of the essential criteria in the section above:
+
+ - [Open Conference Systems (OCS)](https://pkp.sfu.ca/ocs/) 
+ - [Indico](http://indico-software.org/)
+ - [frab](https://frab.github.io/frab/)
+ - [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
+ 
+These four systems will be evaluated by installing locally, testing the claimed
+features of each system and identifying the pros and cons of each. Based on 
+this evaluation a system will be selected and set up in preparation for 
+useR! 2018 and the next satRdays conference.
+
+
