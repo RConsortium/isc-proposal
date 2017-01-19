@@ -9,7 +9,7 @@ At a high-level address what your proposal is and how it will address the proble
 -->
 Our proposal is to evaluate a number of open source conference management 
 systems to assess their suitability for use with useR! and satRdays. We will 
-set up local versions of these systems to test their functionality and ease of 
+set up test versions of these systems to test their functionality and ease of 
 use for all roles (systems administrator, local organizer, 
 program chair, reviewer, conference participant). A system will be selected and
 a production system set up, with a view to be ready for useR! 2018 and the next
@@ -32,6 +32,7 @@ The features we are looking for in a conference management system are listed
 below, essential features are marked with an asterisk.
 
 Software
+
  - Open source*
  - Actively maintained*
  - Well documented
@@ -39,6 +40,7 @@ Software
  - Extensible by proposal participants
 
 Abstract management
+
  - Handles abstract submission, with email notification*
  - Allows markdown in abstracts
  - Allows submitters to edit abstracts
@@ -48,11 +50,13 @@ Abstract management
  - Handle special submissions, e.g. scholarship applications
  
 Scheduling
+
  - Tools to create conference schedule*
  - Drag-and-drop scheduling
  - Conflict management (of topics or people)
  
 Participant management
+
  - Register participants, including accepting payments*
  - Participant accounts to make it easy to participate in multiple conferences
  - Ability to email all participants
@@ -60,6 +64,7 @@ Participant management
  http://conference4me.psnc.pl/
  
 Conference management
+
  - Template for conference website, suitable for different devices, secure and
  accessible to visually impaired*
  - Hosting of presentation slides
@@ -71,7 +76,7 @@ Each system will likely have other non-essential benefits, e.g. event evaluation
 surveys, automated email reminders, time zone support, etc that could also be 
 taken into account when comparing systems.
 
-### Evaluation of Conference Managements
+### Evaluation of Conference Management Systems
 
 We have identified the following conference management systems that appear to 
 meet most if not all of the essential criteria in the section above:
@@ -81,9 +86,9 @@ meet most if not all of the essential criteria in the section above:
  - [frab](https://frab.github.io/frab/)
  - [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
  
-These four systems will be evaluated by installing locally, testing the claimed
-features of each system and identifying the pros and cons of each. Based on 
-this evaluation a system will be selected and set up in preparation for 
+These four systems will be evaluated by setting up a test installation to test 
+the claimed features of each system and identifying the pros and cons of each.
+Based on this evaluation a system will be selected and set up in preparation for 
 useR! 2018 and the next satRdays conference.
 
 

@@ -1,6 +1,6 @@
 Conference Management System for R Consortium Supported Conferences
 ================
-Steph Locke, Heather Turner, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
+Steph Locke, Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
 2017-01-19
 
 Signatories
@@ -64,7 +64,7 @@ Overview
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
-Our proposal is to evaluate a number of open source conference management systems to assess their suitability for use with useR! and satRdays. We will set up local versions of these systems to test their functionality and ease of use for all roles (systems administrator, local organizer, program chair, reviewer, conference participant). A system will be selected and a production system set up, with a view to be ready for useR! 2018 and the next satRdays conference \[or for use after satRdays trial period?\]
+Our proposal is to evaluate a number of open source conference management systems to assess their suitability for use with useR! and satRdays. We will set up test versions of these systems to test their functionality and ease of use for all roles (systems administrator, local organizer, program chair, reviewer, conference participant). A system will be selected and a production system set up, with a view to be ready for useR! 2018 and the next satRdays conference \[or for use after satRdays trial period?\]
 
 Detail
 ------
@@ -82,21 +82,47 @@ Depending on project type the detail section should include:
 
 The features we are looking for in a conference management system are listed below, essential features are marked with an asterisk.
 
-Software - Open source* - Actively maintained* - Well documented - Free to use for conferences charging participants - Extensible by proposal participants
+Software
 
-Abstract management - Handles abstract submission, with email notification* - Allows markdown in abstracts - Allows submitters to edit abstracts - System to assign abstracts to reviewers automatically (e.g. by topic) and/or manually (by program chair(s))* - Custom review decisions - Handle special submissions, e.g. scholarship applications
+-   Open source\*
+-   Actively maintained\*
+-   Well documented
+-   Free to use for conferences charging participants
+-   Extensible by proposal participants
 
-Scheduling - Tools to create conference schedule\* - Drag-and-drop scheduling - Conflict management (of topics or people)
+Abstract management
 
-Participant management - Register participants, including accepting payments\* - Participant accounts to make it easy to participate in multiple conferences - Ability to email all participants - Personal schedules or integration with services such as <http://conference4me.psnc.pl/>
+-   Handles abstract submission, with email notification\*
+-   Allows markdown in abstracts
+-   Allows submitters to edit abstracts
+-   System to assign abstracts to reviewers automatically (e.g. by topic) and/or manually (by program chair(s))\*
+-   Custom review decisions
+-   Handle special submissions, e.g. scholarship applications
 
-Conference management - Template for conference website, suitable for different devices, secure and accessible to visually impaired\* - Hosting of presentation slides - Ability to clone conference for recurring event
+Scheduling
+
+-   Tools to create conference schedule\*
+-   Drag-and-drop scheduling
+-   Conflict management (of topics or people)
+
+Participant management
+
+-   Register participants, including accepting payments\*
+-   Participant accounts to make it easy to participate in multiple conferences
+-   Ability to email all participants
+-   Personal schedules or integration with services such as <http://conference4me.psnc.pl/>
+
+Conference management
+
+-   Template for conference website, suitable for different devices, secure and accessible to visually impaired\*
+-   Hosting of presentation slides
+-   Ability to clone conference for recurring event
 
 Other benefits
 
 Each system will likely have other non-essential benefits, e.g. event evaluation surveys, automated email reminders, time zone support, etc that could also be taken into account when comparing systems.
 
-### Evaluation of Conference Managements
+### Evaluation of Conference Management Systems
 
 We have identified the following conference management systems that appear to meet most if not all of the essential criteria in the section above:
 
@@ -105,7 +131,7 @@ We have identified the following conference management systems that appear to me
 -   [frab](https://frab.github.io/frab/)
 -   [Open Source Event Manager (osem)](https://github.com/openSUSE/osem)
 
-These four systems will be evaluated by installing locally, testing the claimed features of each system and identifying the pros and cons of each. Based on this evaluation a system will be selected and set up in preparation for useR! 2018 and the next satRdays conference.
+These four systems will be evaluated by setting up a test installation to test the claimed features of each system and identifying the pros and cons of each. Based on this evaluation a system will be selected and set up in preparation for useR! 2018 and the next satRdays conference.
 
 Project plan
 ============
@@ -121,6 +147,8 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Licence decisions
  - [ ] Reporting framework
 -->
+A GitHub repository will be set up for us to collaboratively work on documents summarising our evaluation of the different systems.
+
 Technical delivery
 ------------------
 
@@ -129,6 +157,39 @@ Covering the actual delivery of the project this section should provide at least
 
 Including target dates is really important as you need to be committed and the ISC need to have a means of tracking delivery
 -->
+### Evaluation Stage (Mid March - End April)
+
+We will work through each CMS in turn, with the proposers performing the following roles
+
+-   Steph Locke: Set up test system, if time allows consider general issues such as security, accessibility, ability to set up recurring events (1 week/CMS)
+-   Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis: Rotate through the following roles and collaboratively edit document on pros/cons of system (2 hours/CMS)
+    -   Participant 1: submit abstract, edit abstract, contact local organizer
+    -   Participant 2: submit abstract, register (no payment - or pay nominal amount and refund?)
+    -   Program chair: assign abstracts to reviewers, make final decision, schedule presentations, assign chairs
+    -   Reviewer 1: ask for first abstract to be reassigned (to Reviewer 2), review second abstract, make recommendation
+    -   Reviewer 2: review first abstract, make recommendation, suggest session for abstract, see if there is a way to group with second abstract
+    -   Local organizer - email registered participants, add information to the conference website
+
+While the other members are evaluating the last CMS, Steph will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above (1 week).
+
+At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward (2hrs).
+
+An additional week of Steff's time is allowed to handle any further queries required to make a final decision.
+
+\[Gantt chart here: Steph 6 weeks full time, others 2 hours/week\]
+
+### Development Stage (May - June)
+
+Hacing decided on a CMS, Steph will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines (2 weeks).
+
+Given previous experience of testing each CMS, the team will decide how best to test the system. A certain amount of testing will be done by each team member (8 hrs each). Members of the community may be invited to comment on the website and to test the system, in particular this may be necessary to fully test accessibility for the visually impaired.
+
+Steph will make adjustments in response to the testing (1 week). Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
+
+### Production Stage (July - )
+
+Steph will work with the organisers of useR! 2018 and the next satRdays to provide support in using the new system and make any necessary adjustments (2 weeks).
+
 Other aspects
 -------------
 
@@ -141,6 +202,8 @@ Covering non-technical activities like on-going publicity, paper preparation, di
  - [ ] UseR!
  - [ ] ISC meetings
 -->
+Posts will be written during the start-up phase and during the development stage when the new CMS is ready for testing.
+
 Requirements
 ============
 
