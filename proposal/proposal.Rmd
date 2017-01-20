@@ -61,7 +61,7 @@ Participant management
  - Participant accounts to make it easy to participate in multiple conferences
  - Ability to email all participants
  - Personal schedules or integration with services such as 
- http://conference4me.psnc.pl/
+ [Conference4me](http://conference4me.psnc.pl/).
  
 Conference management
 

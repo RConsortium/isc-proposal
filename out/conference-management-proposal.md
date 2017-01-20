@@ -3,32 +3,6 @@ Conference Management System for R Consortium Supported Conferences
 Steph Locke, Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
 2017-01-20
 
-Signatories
-===========
-
-<!-- 
-This section provides the ISC with a view of the support received from the community for a proposal. Acceptance isn't predicated on popularity but community acceptance is important.  Willingness to accept outside input is also a good marker for project delivery. 
-
-An optional section would be for R-Core signatories where changes to R are proposed.
--->
-Project team
-------------
-
-<!-- 
-Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
--->
-Contributors
-------------
-
-<!-- 
-Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
--->
-Consulted
----------
-
-<!-- 
-Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
--->
 The Problem
 ===========
 
@@ -110,7 +84,7 @@ Participant management
 -   Register participants, including accepting payments\*
 -   Participant accounts to make it easy to participate in multiple conferences
 -   Ability to email all participants
--   Personal schedules or integration with services such as <http://conference4me.psnc.pl/>
+-   Personal schedules or integration with services such as [Conference4me](http://conference4me.psnc.pl/).
 
 Conference management
 
@@ -147,7 +121,7 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Licence decisions
  - [ ] Reporting framework
 -->
-A GitHub repository will be set up for us to collaboratively work on documents summarising our evaluation of the different systems. The identified CMS software will be order to prioritise most likely candidates first in case evaluation takes longer than expected.
+A GitHub repository will be set up for us to collaboratively work on documents summarising our evaluation of the different systems. The identified CMS software will be ordered to prioritise most likely candidates first in case evaluation takes longer than expected.
 
 Technical delivery
 ------------------
@@ -162,7 +136,7 @@ Including target dates is really important as you need to be committed and the I
 We will work through each CMS in turn, with the proposers performing the following roles
 
 -   Steph Locke: Set up test system, if time allows consider general issues such as security, accessibility, ability to set up recurring events and handle multiple conferences
--   Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis: Rotate through the following roles and collaboratively edit document on pros/cons of system
+-   Full team: Rotate through the following roles and collaboratively edit document on pros/cons of system
     -   Participant 1: submit abstract, edit abstract, contact local organizer
     -   Participant 2: submit abstract, register (no payment - or pay nominal amount and refund?)
     -   Program chair: assign abstracts to reviewers, make final decision, schedule presentations, assign chairs
@@ -170,13 +144,14 @@ We will work through each CMS in turn, with the proposers performing the followi
     -   Reviewer 2: review first abstract, make recommendation, suggest session for abstract, see if there is a way to group with second abstract
     -   Local organizer - email registered participants, add information to the conference website
 
-While the other members are evaluating the last CMS, Steph will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above.
+After evaluating the last CMS, Steph will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above.
 
-At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward.
+At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward. Some queries may need to be followed up by Steph before a final decision is made.
 
-An additional week is allowed to handle any further queries required to make a final decision.
+Estimated work time:
 
-Estimated work time: - Steph: 12 days - Others: 10 hours each
+-   Steph: 12 days
+-   Others: 10 hours each
 
 ### Development Stage (May - June)
 
@@ -186,13 +161,18 @@ Given previous experience of testing each CMS, the team will decide how best to 
 
 Steph will make adjustments in response to the testing. Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
 
-Estimated work time: - Steph: 8 days - Others: 8 hours each
+Estimated work time:
+
+-   Steph: 8 days
+-   Others: 8 hours each
 
 ### Production Stage (July - )
 
 Steph will work with the organisers of useR! 2018 and the next satRdays to provide support in using the new system and make any necessary adjustments.
 
-Estimated work time: - Steph: 5 days
+Estimated work time:
+
+-   Steph: 5 days
 
 Other aspects
 -------------
@@ -264,18 +244,18 @@ A summary of the requirements that contextualises the costs
 -->
 The main cost is for funding Steph's time, as a freelance programmer. This work broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. In addition an honorarium is allowed for the other members of the team, in recognition of the time they will spend reviewing and testing the conference management systems, using their expertise gained from extensive voluntary contributions to R conferences.
 
-| Item                                    | Cost (USD) |
-|-----------------------------------------|------------|
-| Milestone 1: Evaluation of CMS          | 7200       |
-| Milestone 2: Development of CMS         | 4800       |
-| Milestone 3: Handover to useR!/satRdays | 3000       |
-| Honoraria for 5 team members            | 5000       |
-| Total:                                  | 20000      |
+| Item                                    |  Cost (USD)|
+|-----------------------------------------|-----------:|
+| Milestone 1: Evaluation of CMS          |        7200|
+| Milestone 2: Development of CMS         |        4800|
+| Milestone 3: Handover to useR!/satRdays |        3000|
+| Honoraria for 5 team members            |        5000|
+| **Total**                               |   **20000**|
 
 ### Hosting
 
--   new sites will need to be created for the test and development systems, however these will be short lived and can be accounted for as a work expense by Steph.
--   the new system could be hosted on a new central site for both conferences; could be added to R-project.org for both conferences, or separately hosted using the same CMS, to be determined. The on-going costs associated with such hosting could be accounted for in the respective conference budgets.
+-   New sites will need to be created for the test and development systems, however these will be short lived and can be accounted for as a work expense by Steph.
+-   The new system could be hosted on a new central site for both conferences; could be added to R-project.org for both conferences, or separately hosted using the same CMS, to be determined. The on-going costs associated with such hosting could be accounted for in the respective conference budgets.
 
 Success
 =======
@@ -289,18 +269,30 @@ Definition of done
 <!-- 
 What does success look like? 
 -->
+The project will deliver a new conference management system for R consortium supported conferences.
+
 Measuring success
 -----------------
 
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
+The milestones for the project are
+
+1.  Evaluate candidate CMS software and select the best one to take forward.
+2.  Set up the chosen CMS ready for use by useR! and satRdays.
+3.  Handover to the organizers of useR! and satRdays.
+
 Future work
 -----------
 
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
+If deficiencies in the selected CMS are identified, further development of the CMS itself may be desirable to fill this gap. Alternatively, integration with other services, for example for personalised schedules, could be explored.
+
+Although the system will have been extensively tested during evaluation and development, no doubt some issues will arise during the first useR! and satRdays using the system and there would be ongoing maintenance of the system, which hopefully could be handled by the conference organizers.
+
 Key risks
 ---------
 
@@ -313,3 +305,8 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+The availability of Steph to take on the work is key. If for some reason she was unable to conduct the work, it is likely that we would be able to recruit an alternative developer given funding in place. Depending on the exact circumstances we may need to bring in another satRdays organizer to provide input on the particular needs of satRdays. In terms of useR! organizers there is a much wider pool we could draw from if additional help were necessary on that side.
+
+It is possible that some obstacle would be meet in attempting to set up a particular CMS. If this could not be overcome, this would simply eliminate the CMS from the evaluation. Since we have a good set of candidates, we are confident that at least one can be selected as suitable CMS for useR! and satRdays, even if it does not implement everything on our wish list.
+
+The main cost is associated with the time setting up each CMS and developing the selected CMS. We would prioritise the four candidates, so that if the evaluation phase took longer than expected, we could consider at least three candidates. If the development phase takes longer than expected this could run into the handover time, if necessary passing some of the set up cost onto organizers of the next useR! and satRdays. The proposed timeline aims to handover in July, when useR! 2017 will only just have taken place. Thus a delay of one or even two months could be accommodated with minimal effect on the organisation of the next conference.

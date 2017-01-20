@@ -7,16 +7,30 @@ Projects should have a definition of done that is measurable, and a thorough und
 <!-- 
 What does success look like? 
 -->
+The project will deliver a new conference management system for R consortium supported conferences.
 
 ## Measuring success
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
+The milestones for the project are 
+
+  1. Evaluate candidate CMS software and select the best one to take forward.
+  2. Set up the chosen CMS ready for use by useR! and satRdays.
+  3. Handover to the organizers of useR! and satRdays.
 
 ## Future work
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
+If deficiencies in the selected CMS are identified, further development of the 
+CMS itself may be desirable to fill this gap. Alternatively, integration with 
+other services, for example for personalised schedules, could be explored.
+
+Although the system will have been extensively tested during evaluation and 
+development, no doubt some issues will arise during the first useR! and 
+satRdays using the system and there would be ongoing maintenance of the system,
+which hopefully could be handled by the conference organizers.
 
 ## Key risks
 <!-- 
@@ -28,3 +42,26 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+The availability of Steph to take on the work is key. If for some reason she 
+was unable to conduct the work, it is likely that we would be able to recruit 
+an alternative developer given funding in place. Depending on the exact 
+circumstances we may need to bring in another satRdays organizer to provide
+input on the particular needs of satRdays. In terms of useR! organizers there is
+a much wider pool we could draw from if additional help were necessary on that 
+side.
+
+It is possible that some obstacle would be meet in attempting to set up a 
+particular CMS. If this could not be overcome, this would simply eliminate the
+CMS from the evaluation. Since we have a good set of candidates, we are 
+confident that at least one can be selected as suitable CMS for useR! and
+satRdays, even if it does not implement everything on our wish list.
+
+The main cost is associated with the time setting up each CMS and developing the
+selected CMS. We would prioritise the four candidates, so that if the evaluation 
+phase took longer than expected, we could consider at least three candidates. If 
+the development phase takes longer than expected this could run into the 
+handover time, if necessary passing some of the set up cost onto organizers of
+the next useR! and satRdays. The proposed timeline aims to handover in July, 
+when useR! 2017 will only just have taken place. Thus a delay of one or even two 
+months could be accommodated with minimal effect on the organisation of the
+next conference.

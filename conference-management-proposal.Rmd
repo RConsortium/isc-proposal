@@ -10,7 +10,7 @@ knitr::opts_knit$set(warning = FALSE, message= FALSE)
 ```
 
 
-```{r autodoc, child='proposal/signatories.Rmd', eval=TRUE}
+```{r autodoc, child='proposal/signatories.Rmd', eval=FALSE}
 ```
 
 ```{r autodoc, child='proposal/problemdefinition.Rmd', eval=TRUE}

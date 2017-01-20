@@ -66,20 +66,20 @@ testing the conference management systems, using their expertise gained from
 extensive voluntary contributions to R conferences.
 
 | Item | Cost (USD) |
-| ---- | ---- |
+| ---- | ----:|
 | Milestone 1: Evaluation of CMS | 7200  |
 | Milestone 2: Development of CMS | 4800 |
 | Milestone 3: Handover to useR!/satRdays | 3000 |
 | Honoraria for 5 team members | 5000 |
-| Total: | 20000 |
+| **Total** | **20000** |
 
 
 ### Hosting
 
- - new sites will need to be created for the test and development systems, 
+ - New sites will need to be created for the test and development systems, 
  however these will be short lived and can be accounted for as a work expense by 
  Steph.
- - the new system could be hosted on a new central site for both conferences; 
+ - The new system could be hosted on a new central site for both conferences; 
  could be added to R-project.org for both conferences, or separately hosted 
  using the same CMS, to be determined. The on-going costs associated with such 
  hosting could be accounted for in the respective conference budgets.

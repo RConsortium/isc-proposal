@@ -13,7 +13,7 @@ Covering the planning phase, this section should provide a relatively detailed p
 
 A GitHub repository will be set up for us to collaboratively work on documents
 summarising our evaluation of the different systems. The identified CMS software
-will be order to prioritise most likely candidates first in case evaluation 
+will be ordered to prioritise most likely candidates first in case evaluation 
 takes longer than expected.
 
 ## Technical delivery
@@ -31,8 +31,7 @@ following roles
  - Steph Locke: Set up test system, if time allows consider general issues such 
  as security, accessibility, ability to set up recurring events and handle 
  multiple conferences
- - Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, 
- Achim Zeileis: Rotate through the following roles and collaboratively edit
+ - Full team: Rotate through the following roles and collaboratively edit
  document on pros/cons of system
     - Participant 1: submit abstract, edit abstract, contact local organizer
     - Participant 2: submit abstract, register (no payment - or pay nominal 
@@ -46,17 +45,16 @@ following roles
     - Local organizer - email registered participants, add information to the
     conference website
     
-While the other members are evaluating the last CMS, Steph will round up the 
-pros/cons of each CMS, make further tests as requested by the team and consider
-additional pros/cons not explicitly tested by the above.
+After evaluating the last CMS, Steph will round up the pros/cons of each CMS, 
+make further tests as requested by the team and consider additional pros/cons 
+not explicitly tested by the above.
 
 At the end of this stage the team will meet to discuss the pros and cons and 
-make a decision on which CMS to take forward.
-
-An additional week is allowed to handle any further queries 
-required to make a final decision.
+make a decision on which CMS to take forward. Some queries may need to be 
+followed up by Steph before a final decision is made.
 
 Estimated work time:
+
  - Steph: 12 days
  - Others: 10 hours each
 
@@ -78,6 +76,7 @@ Steph will make adjustments in response to the testing. Larger changes
 separate project.
 
 Estimated work time:
+
  - Steph: 8 days
  - Others: 8 hours each
 
@@ -87,6 +86,7 @@ Steph will work with the organisers of useR! 2018 and the next satRdays to
 provide support in using the new system and make any necessary adjustments.
 
 Estimated work time:
+
  - Steph: 5 days
 
 ## Other aspects
