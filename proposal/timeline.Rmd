@@ -12,7 +12,9 @@ Covering the planning phase, this section should provide a relatively detailed p
 -->
 
 A GitHub repository will be set up for us to collaboratively work on documents
-summarising our evaluation of the different systems.
+summarising our evaluation of the different systems. The identified CMS software
+will be order to prioritise most likely candidates first in case evaluation 
+takes longer than expected.
 
 ## Technical delivery
 <!--
@@ -27,10 +29,11 @@ We will work through each CMS in turn, with the proposers performing the
 following roles
 
  - Steph Locke: Set up test system, if time allows consider general issues such 
- as security, accessibility, ability to set up recurring events (1 week/CMS)
+ as security, accessibility, ability to set up recurring events and handle 
+ multiple conferences
  - Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, 
  Achim Zeileis: Rotate through the following roles and collaboratively edit
- document on pros/cons of system (2 hours/CMS)
+ document on pros/cons of system
     - Participant 1: submit abstract, edit abstract, contact local organizer
     - Participant 2: submit abstract, register (no payment - or pay nominal 
     amount and refund?)
@@ -45,40 +48,46 @@ following roles
     
 While the other members are evaluating the last CMS, Steph will round up the 
 pros/cons of each CMS, make further tests as requested by the team and consider
-additional pros/cons not explicitly tested by the above (1 week).
+additional pros/cons not explicitly tested by the above.
 
 At the end of this stage the team will meet to discuss the pros and cons and 
-make a decision on which CMS to take forward (2hrs).
+make a decision on which CMS to take forward.
 
-An additional week of Steff's time is allowed to handle any further queries 
+An additional week is allowed to handle any further queries 
 required to make a final decision.
 
-[Gantt chart here: Steph 6 weeks full time, others 2 hours/week]
+Estimated work time:
+ - Steph: 12 days
+ - Others: 10 hours each
 
 ### Development Stage (May - June)
 
 Hacing decided on a CMS, Steph will work on putting the system into production,
 ready for use by useR! 2018 and the next satRdays. This will include creating 
 standard text where possible e.g. for abstract submission instructions, and 
-creating templates that reuse parameters, e.g. abstract submission deadlines 
-(2 weeks).
+creating templates that reuse parameters, e.g. abstract submission deadlines.
 
 Given previous experience of testing each CMS, the team will decide how best to 
-test the system. A certain amount of testing will be done by each team member
-(8 hrs each). Members of the community may be invited to comment on the website 
+test the system. A certain amount of testing will be done by each team member. 
+Members of the community may be invited to comment on the website 
 and to test the system, in particular this may be necessary to fully test 
 accessibility for the visually impaired.
 
-Steph will make adjustments in response to the testing (1 week). Larger changes
+Steph will make adjustments in response to the testing. Larger changes
 - requiring extensions to the system itself - may need to be addressed in a 
 separate project.
+
+Estimated work time:
+ - Steph: 8 days
+ - Others: 8 hours each
 
 ### Production Stage (July - )
 
 Steph will work with the organisers of useR! 2018 and the next satRdays to 
-provide support in using the new system and make any necessary adjustments 
-(2 weeks).
+provide support in using the new system and make any necessary adjustments.
 
+Estimated work time:
+ - Steph: 5 days
 
 ## Other aspects
 <!--

@@ -1,7 +1,7 @@
 Conference Management System for R Consortium Supported Conferences
 ================
 Steph Locke, Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis
-2017-01-19
+2017-01-20
 
 Signatories
 ===========
@@ -147,7 +147,7 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Licence decisions
  - [ ] Reporting framework
 -->
-A GitHub repository will be set up for us to collaboratively work on documents summarising our evaluation of the different systems.
+A GitHub repository will be set up for us to collaboratively work on documents summarising our evaluation of the different systems. The identified CMS software will be order to prioritise most likely candidates first in case evaluation takes longer than expected.
 
 Technical delivery
 ------------------
@@ -161,8 +161,8 @@ Including target dates is really important as you need to be committed and the I
 
 We will work through each CMS in turn, with the proposers performing the following roles
 
--   Steph Locke: Set up test system, if time allows consider general issues such as security, accessibility, ability to set up recurring events (1 week/CMS)
--   Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis: Rotate through the following roles and collaboratively edit document on pros/cons of system (2 hours/CMS)
+-   Steph Locke: Set up test system, if time allows consider general issues such as security, accessibility, ability to set up recurring events and handle multiple conferences
+-   Heather Turner, Julie Josse, Torben Tvedebrink, Torsten Hothorn, Achim Zeileis: Rotate through the following roles and collaboratively edit document on pros/cons of system
     -   Participant 1: submit abstract, edit abstract, contact local organizer
     -   Participant 2: submit abstract, register (no payment - or pay nominal amount and refund?)
     -   Program chair: assign abstracts to reviewers, make final decision, schedule presentations, assign chairs
@@ -170,25 +170,29 @@ We will work through each CMS in turn, with the proposers performing the followi
     -   Reviewer 2: review first abstract, make recommendation, suggest session for abstract, see if there is a way to group with second abstract
     -   Local organizer - email registered participants, add information to the conference website
 
-While the other members are evaluating the last CMS, Steph will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above (1 week).
+While the other members are evaluating the last CMS, Steph will round up the pros/cons of each CMS, make further tests as requested by the team and consider additional pros/cons not explicitly tested by the above.
 
-At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward (2hrs).
+At the end of this stage the team will meet to discuss the pros and cons and make a decision on which CMS to take forward.
 
-An additional week of Steff's time is allowed to handle any further queries required to make a final decision.
+An additional week is allowed to handle any further queries required to make a final decision.
 
-\[Gantt chart here: Steph 6 weeks full time, others 2 hours/week\]
+Estimated work time: - Steph: 12 days - Others: 10 hours each
 
 ### Development Stage (May - June)
 
-Hacing decided on a CMS, Steph will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines (2 weeks).
+Hacing decided on a CMS, Steph will work on putting the system into production, ready for use by useR! 2018 and the next satRdays. This will include creating standard text where possible e.g. for abstract submission instructions, and creating templates that reuse parameters, e.g. abstract submission deadlines.
 
-Given previous experience of testing each CMS, the team will decide how best to test the system. A certain amount of testing will be done by each team member (8 hrs each). Members of the community may be invited to comment on the website and to test the system, in particular this may be necessary to fully test accessibility for the visually impaired.
+Given previous experience of testing each CMS, the team will decide how best to test the system. A certain amount of testing will be done by each team member. Members of the community may be invited to comment on the website and to test the system, in particular this may be necessary to fully test accessibility for the visually impaired.
 
-Steph will make adjustments in response to the testing (1 week). Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
+Steph will make adjustments in response to the testing. Larger changes - requiring extensions to the system itself - may need to be addressed in a separate project.
+
+Estimated work time: - Steph: 8 days - Others: 8 hours each
 
 ### Production Stage (July - )
 
-Steph will work with the organisers of useR! 2018 and the next satRdays to provide support in using the new system and make any necessary adjustments (2 weeks).
+Steph will work with the organisers of useR! 2018 and the next satRdays to provide support in using the new system and make any necessary adjustments.
+
+Estimated work time: - Steph: 5 days
 
 Other aspects
 -------------
@@ -216,12 +220,24 @@ People
 <!--
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
+Steph Locke will take on the bulk of the technical work. Steph is a founder of satRdays and managed the centralized infrastructure since its inception.
+
+The remaining team members provide expert review and oversight. Heather Turner and Julie Josse have both been local organisers and program chairs of useR!. Torben Tvedebrink was local organiser of useR! 2015 and managed the development of the abstract handling software used in 2015 and 2016. Torsten Hothorn and Achim Zeileis are the permanent members of the R Foundation Conference Committee and founders of useR!.
+
+Finally additional members of the community may be consulted for further testing and advice.
+
 Processes
 ---------
 
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
+A contributor code of conduct will be adopted to govern the work of the team and future work on the conference management system.
+
+Any development of the CMS itself will be contributed back to the open source project for all to use. Development of content specific to the useR! or satRdays conferences will be owned by the consortium for the purpose of running and maintaining the CMS.
+
+Members of the ISC would be invited to join the review meetings towards the end of the evaluation and development stages.
+
 Tools & Tech
 ------------
 
@@ -232,19 +248,35 @@ Will cloud computing be used - if yes are there are necessary components that wi
 
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
+-   GitHub for team collaboration (public)
+-   Each CMS
+-   Hosting of test systems
+-   Hosting of development system
+-   Hosting of production system
+
+The hosting of the test, development and productions systems may require different resources due to the number of people accessing the system and the amount of content added to the system.
+
 Funding
--------
-
-<!-- 
-[TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
-
--->
-Summary
 -------
 
 <!--
 A summary of the requirements that contextualises the costs
 -->
+The main cost is for funding Steph's time, as a freelance programmer. This work broken down into milestones, reflecting the project stages outlined in the Technical Delivery section. In addition an honorarium is allowed for the other members of the team, in recognition of the time they will spend reviewing and testing the conference management systems, using their expertise gained from extensive voluntary contributions to R conferences.
+
+| Item                                    | Cost (USD) |
+|-----------------------------------------|------------|
+| Milestone 1: Evaluation of CMS          | 7200       |
+| Milestone 2: Development of CMS         | 4800       |
+| Milestone 3: Handover to useR!/satRdays | 3000       |
+| Honoraria for 5 team members            | 5000       |
+| Total:                                  | 20000      |
+
+### Hosting
+
+-   new sites will need to be created for the test and development systems, however these will be short lived and can be accounted for as a work expense by Steph.
+-   the new system could be hosted on a new central site for both conferences; could be added to R-project.org for both conferences, or separately hosted using the same CMS, to be determined. The on-going costs associated with such hosting could be accounted for in the respective conference budgets.
+
 Success
 =======
 
