@@ -7,7 +7,7 @@ Projects should have a definition of done that is measurable, and a thorough und
 <!-- 
 What does success look like? 
 -->
-The project will deliver a new conference management system for R consortium supported conferences.
+The project will deliver a new conference management system for R Consortium supported conferences.
 
 ## Measuring success
 <!-- 
