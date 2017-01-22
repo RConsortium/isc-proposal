@@ -60,7 +60,7 @@ Estimated work time:
 
 ### Development Stage (May - June)
 
-Hacing decided on a CMS, Steph will work on putting the system into production,
+Having decided on a CMS, Steph will work on putting the system into production,
 ready for use by useR! 2018 and the next satRdays. This will include creating 
 standard text where possible e.g. for abstract submission instructions, and 
 creating templates that reuse parameters, e.g. abstract submission deadlines.
