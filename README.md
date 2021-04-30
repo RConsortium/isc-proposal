@@ -32,7 +32,7 @@ Here we detail useful guidance notes on making proposals to the ISC but you shou
 - Add relevant additional sections, like the letter of support from an R Core member if you want a change to R itself
 - Proposals should be 2-5 pages when in PDF form
 - You *can* submit a proposal on your own, but it's really recommended to get engagement from the community (and the ISC) first
-- Proposals should be emailed to [proposal@r-consortium.org](proposal@r-consortium.org) and through this Google form: https://forms.gle/Cuk7pKHabXg9viXWA
+- Proposals should be submitted through this Google form: https://forms.gle/Cuk7pKHabXg9viXWA
 
 ## Making your proposal
 This is a boilerplate repository that you will need to fork, title appropriately and start filling in.
