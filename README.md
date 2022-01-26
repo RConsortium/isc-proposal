@@ -21,7 +21,7 @@ Set up in 2015, the R Consortium is an organisation set up to help support the R
 >(f) undertake such other activities as may from time to time be appropriate to further the purposes and achieve the goals set forth above.  
 >
 >In furtherance of these efforts, the R Consortium shall seek to solicit the participation of all interested parties on a fair, equitable and open basis.
-> *[R Consortium Bylaws, Section 1.4](https://www.r-consortium.org/about/governance/bylaws)*
+> *[R Consortium Bylaws, Section 1.4](https://bylaws.r-consortium.org)*
 
 Delivery of the technical aspects for R Consortium's projects is overseen by the Infrastructure Steering Committee (ISC). The ISC is set up to receive, select, and manage projects that deliver upon the aims of the Consortium. The ISC will have an ongoing call for proposals and will select proposals to move into project stage approximately every six months. Within the process notes, it does say that if a proposal is unlikely to get funded then the proposers will be notified as soon as possible, partially so that re-submission can happen in the event fixable issues.
 
