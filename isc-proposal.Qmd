@@ -9,12 +9,12 @@ author:
 date: today
 date-format: iso
 format:
+  html:
+    embed-resources: true
   hikmah-pdf:
     geometry: 
       - left=1.25in
       - right=1.25in
-  html:
-    embed-resources: true
 bibliography: references.bib
 ---
 
