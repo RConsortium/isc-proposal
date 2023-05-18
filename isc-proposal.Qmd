@@ -8,7 +8,6 @@ author:
     
 date: today
 date-format: iso
-toc: true
 format:
   html:
     embed-resources: true
