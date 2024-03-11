@@ -1,11 +1,15 @@
 name: Build and deploy
 
+## Place this in .github/workflows to run on push to main
+## Ensure that workflow have write access in Settings > 
+
 on:
   push:
     branches:
       - main
 env:
   cache-version: v1
+  GITHUB_PAT: ${{ secrets.GH_SECRET_TOKEN }}
 
 jobs:
   build:
@@ -13,7 +17,6 @@ jobs:
     container: r-base:latest
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
-      GITHUB_PAT: ${{ secrets.GH_SECRET_TOKEN }}
     steps:
     - name: Install pandoc
       uses: r-lib/actions/setup-pandoc@v2
@@ -56,6 +59,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        token: GITHUB_PAT
+        token: $GITHUB_PAT
         branch: gh-pages # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
