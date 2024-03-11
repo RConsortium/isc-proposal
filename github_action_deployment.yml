@@ -1,7 +1,8 @@
 name: Build and deploy
 
 ## Place this in .github/workflows to run on push to main
-## Ensure that workflow have write access in Settings > 
+## Ensure that workflows have write access in Settings > Actions > General > Workflow Permissions > Read and write permissions
+## Also make sure that the name of your access token is correct (L13) -- here it's saved as "GH_SECRET_TOKEN"
 
 on:
   push:
@@ -49,7 +50,8 @@ jobs:
 
     - name: checkout
       uses: actions/checkout@v4
-      
+
+    # gh-pages will look for an index.html file, so just copy the static file to that name
     - name: build
       run: |
         mkdir docs
@@ -59,6 +61,6 @@ jobs:
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        token: $GITHUB_PAT
+        token: ${{ env.GITHUB_PAT }}
         branch: gh-pages # The branch the action should deploy to.
         folder: out # The folder the action should deploy.
