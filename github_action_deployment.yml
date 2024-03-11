@@ -33,11 +33,14 @@ jobs:
       with:
         path: /usr/local/lib/R/site-library
         restore-keys: ${{ env.cache-version }}-${{ runner.os }}-r-
-        
+
+    # timeout is increased because I'm having failures from downloads timing out
+    # shouldn't be a big deal--installs are cached so it only happens once (ideally)
     - name: Install dependencies with CRAN
       run: |
+        options(timeout = max(1000, getOption("timeout")))
         options(repos = c(CRAN = "https://cran.r-project.org"))
-        install.packages(c("knitr", "rmarkdown"), quiet=TRUE)
+        install.packages(c("knitr", "rmarkdown", "remotes"))
         saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
       shell: Rscript {0}
 
