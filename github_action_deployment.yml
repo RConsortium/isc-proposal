@@ -10,7 +10,7 @@ on:
       - main
 env:
   cache-version: v1
-  GITHUB_PAT: ${{ secrets.GH_SECRET_TOKEN }}
+  GITHUB_PAT: ${{ secrets.GH_SECRET_TOKEN }} # make sure this matches the name of your github secret
 
 jobs:
   build:
@@ -28,7 +28,7 @@ jobs:
         apt-get install -y texlive-latex-base texlive-fonts-extra git lmodern texlive-latex-recommended rsync
 
     - name: Restore cached R packages
-      if: runner.os != 'Windows'
+      if: runner.os != 'Windows' # probably unneccessary but included just in case
       uses: actions/cache/restore@v4
       with:
         path: /usr/local/lib/R/site-library
@@ -41,8 +41,9 @@ jobs:
         install.packages(c("knitr", "rmarkdown"), quiet=TRUE)
       shell: Rscript {0}
 
+    # This sometimes fails, but it doesn't really matter -- failure just means nothing to change.
     - name: Cache R packages
-      if: runner.os != 'Windows'
+      if: runner.os != 'Windows' # see L31
       uses: actions/cache/save@v4
       with:
         path: /usr/local/lib/R/site-library
@@ -63,4 +64,4 @@ jobs:
       with:
         token: ${{ env.GITHUB_PAT }}
         branch: gh-pages # The branch the action should deploy to.
-        folder: out # The folder the action should deploy.
+        folder: out # The folder the action should deploy. ghgenerate.R automatically puts these files in `out`.
