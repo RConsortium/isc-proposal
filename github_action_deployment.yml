@@ -51,11 +51,11 @@ jobs:
       run: |
         mkdir docs
         Rscript ghgenerate.R
-        cp docs/isc-proposal.html docs/index.html
+        cp out/isc-proposal.html out/index.html
 
     - name: Deploy 🚀
       uses: JamesIves/github-pages-deploy-action@releases/v4
       with:
-        token: ${{ secrets.GH_SECRET_TOKEN }}
+        token: GITHUB_PAT
         branch: gh-pages # The branch the action should deploy to.
-        folder: docs # The folder the action should deploy.
+        folder: out # The folder the action should deploy.
