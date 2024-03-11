@@ -32,13 +32,13 @@ jobs:
       uses: actions/cache/restore@v4
       with:
         path: /usr/local/lib/R/site-library
-        key: ${{ env.cache-version }}-${{ runner.os }}-r-${{ hashFiles('.github/depends.Rds') }}
         restore-keys: ${{ env.cache-version }}-${{ runner.os }}-r-
         
     - name: Install dependencies with CRAN
       run: |
         options(repos = c(CRAN = "https://cran.r-project.org"))
         install.packages(c("knitr", "rmarkdown"), quiet=TRUE)
+        saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
       shell: Rscript {0}
 
     # This sometimes fails, but it doesn't really matter -- failure just means nothing to change.
