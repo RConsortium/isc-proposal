@@ -40,8 +40,8 @@ jobs:
       run: |
         options(timeout = max(1000, getOption("timeout")))
         options(repos = c(CRAN = "https://cran.r-project.org"))
-        install.packages(c("knitr", "rmarkdown", "remotes"))
-        saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
+        install.packages(c("knitr", "rmarkdown"))
+        write.csv(installed.packages()[,c(1,3)], file="./depends.csv")
       shell: Rscript {0}
 
     # This sometimes fails, but it doesn't really matter -- failure just means nothing to change.
@@ -50,7 +50,7 @@ jobs:
       uses: actions/cache/save@v4
       with:
         path: /usr/local/lib/R/site-library
-        key: ${{ env.cache-version }}-${{ runner.os }}-r-${{ hashFiles('.github/depends.Rds') }}
+        key: ${{ env.cache-version }}-${{ runner.os }}-r-${{ hashFiles('./depends.csv') }}
 
     - name: checkout
       uses: actions/checkout@v4
