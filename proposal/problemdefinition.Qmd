@@ -1,4 +1,10 @@
+---
+bibliography: references.bib
+---
+
 # The Problem
+
+```{=html}
 <!-- 
 Outlining the issue / weak point / problem to be solved by this proposal. This should be a compelling section that sets the reader up for the next section - the proposed solution!
 
@@ -9,5 +15,5 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
-
-
+```
+An example in-text citation [@wickham2016].
