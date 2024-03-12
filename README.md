@@ -54,6 +54,13 @@ You can configure this to produce the needed documents and publish them to the g
 - Amend the `.push_gh_pages.sh` and `ghgenerate.R` with the details of your repository and preferred commit details
 - Use the gh-pages branch to host your proposal online and to retrieve the HTML or PDF variants for emailing
 
+You can also deploy your proposal without the need for Travis using the included GitHub workflow. This process is very similar to the above, and can be done in with the following steps:
+
+- Create an access token in your GitHub settings (Settings > Developer Settings > Personal Access Tokens > Tokens (classic)). Give this token the `public_repo` permissions, and copy the key.
+- Add the access token to your repository as a secret (In the repository, go to Settings > Secrets and Variables > Actions > Repository Secrets). The action assumes you will call this `GH_SECRET_TOKEN`, but you can name it anything you want.
+- Move the `github_action_deployment.yml` file to `.github/workflows/github_action_deployment.yml`. Ensure that line 13 matches what you called your repository secret.
+
+Now whenever you push to `main`, it should automatically trigger a deployment of your proposal. No action is needed to change values in `.push_gh_pages.sh`, but you should still change the values in the first three lines of `ghgenerate.R`.
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">ISC Boilerplate</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/stephlocke" property="cc:attributionName" rel="cc:attributionURL">Stephanie Locke</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/RConsortium/isc-proposal" rel="dct:source">https://github.com/RConsortium/isc-proposal</a>.

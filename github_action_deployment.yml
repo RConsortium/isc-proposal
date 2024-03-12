@@ -1,0 +1,70 @@
+name: Build and deploy
+
+## Place this in .github/workflows to run on push to main
+## Ensure that workflows have write access in Settings > Actions > General > Workflow Permissions > Read and write permissions
+## Also make sure that the name of your access token is correct (L13) -- here it's saved as "GH_SECRET_TOKEN"
+
+on:
+  push:
+    branches:
+      - main
+env:
+  cache-version: v1
+  GITHUB_PAT: ${{ secrets.GH_SECRET_TOKEN }} # make sure this matches the name of your github secret
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: r-base:latest
+    env:
+      R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
+    steps:
+    - name: Install pandoc
+      uses: r-lib/actions/setup-pandoc@v2
+
+    - name: Install dependencies with apt
+      run: |
+        apt-get update
+        apt-get install -y texlive-latex-base texlive-fonts-extra git lmodern texlive-latex-recommended rsync
+
+    - name: Restore cached R packages
+      if: runner.os != 'Windows' # probably unneccessary but included just in case
+      uses: actions/cache/restore@v4
+      with:
+        path: /usr/local/lib/R/site-library
+        restore-keys: ${{ env.cache-version }}-${{ runner.os }}-r-
+
+    # timeout is increased because I'm having failures from downloads timing out
+    # shouldn't be a big deal--installs are cached so it only happens once (ideally)
+    - name: Install dependencies with CRAN
+      run: |
+        options(timeout = max(1000, getOption("timeout")))
+        options(repos = c(CRAN = "https://cran.r-project.org"))
+        install.packages(c("knitr", "rmarkdown"))
+        write.csv(installed.packages()[,c(1,3)], file="./depends.csv")
+      shell: Rscript {0}
+
+    # This sometimes fails, but it doesn't really matter -- failure just means nothing to change.
+    - name: Cache R packages
+      if: runner.os != 'Windows' # see L31
+      uses: actions/cache/save@v4
+      with:
+        path: /usr/local/lib/R/site-library
+        key: ${{ env.cache-version }}-${{ runner.os }}-r-${{ hashFiles('./depends.csv') }}
+
+    - name: checkout
+      uses: actions/checkout@v4
+
+    # gh-pages will look for an index.html file, so just copy the static file to that name
+    - name: build
+      run: |
+        mkdir docs
+        Rscript ghgenerate.R
+        cp out/isc-proposal.html out/index.html
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@releases/v4
+      with:
+        token: ${{ env.GITHUB_PAT }}
+        branch: gh-pages # The branch the action should deploy to.
+        folder: out # The folder the action should deploy. ghgenerate.R automatically puts these files in `out`.
