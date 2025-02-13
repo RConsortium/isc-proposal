@@ -1,6 +1,7 @@
-title: Hikma
+title: Hikmah
 author: Andrew Heiss
-version: 0.0.1
+version: 0.0.8
+quarto-required: ">=1.4.11"
 contributes:
   formats:
     common:
@@ -28,9 +29,11 @@ contributes:
       citecolor: DarkSlateBlue
       link-citations: true
 
+      cite-method: citeproc  # Use citeproc by default; this can also be "biblatex"
+      
+      # Settings for when cite-method: biblatex
       biblio-title: "References"
       biblio-config: false  # Don't use the default template's biblatex commands
-      cite-method: biblatex
       biblatex-chicago: false  # Custom flag for enabling biblatex-chicago
       biblio-style: apa
       biblatexoptions:
@@ -44,3 +47,5 @@ contributes:
       indent: true
     html:
       theme: styles/pretty.scss
+      template-partials:
+        - "partials/title-block.html"
