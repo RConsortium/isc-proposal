@@ -19,4 +19,4 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-          path: "isc-proposal.Qmd"
+          path: "isc-proposal.qmd"

@@ -18,17 +18,17 @@ format:
 bibliography: references.bib
 ---
 
-{{< include proposal/signatories.Qmd >}}
+{{< include proposal/signatories.qmd >}}
 
-{{< include proposal/problemdefinition.Qmd >}}
+{{< include proposal/problemdefinition.qmd >}}
 
-{{< include proposal/proposal.Qmd >}}
+{{< include proposal/proposal.qmd >}}
 
-{{< include proposal/timeline.Qmd >}}
+{{< include proposal/timeline.qmd >}}
 
-{{< include proposal/requirements.Qmd >}}
+{{< include proposal/requirements.qmd >}}
 
-{{< include proposal/success.Qmd >}}
+{{< include proposal/success.qmd >}}
 
 ::: refs
 :::
