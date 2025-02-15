@@ -1,0 +1,34 @@
+---
+title: "Proposal Title"
+author: 
+  - name: Annie Easley
+    orcid: 5555-5555-5555-5555
+    affiliations:
+      - "Lewis Research Center, National Aeronautics and Space Administration"
+    
+date: today
+date-format: iso
+format:
+  html:
+    embed-resources: true
+  hikmah-pdf:
+    geometry: 
+      - left=1.25in
+      - right=1.25in
+bibliography: references.bib
+---
+
+{{< include proposal/signatories.qmd >}}
+
+{{< include proposal/problemdefinition.qmd >}}
+
+{{< include proposal/proposal.qmd >}}
+
+{{< include proposal/timeline.qmd >}}
+
+{{< include proposal/requirements.qmd >}}
+
+{{< include proposal/success.qmd >}}
+
+::: refs
+:::
