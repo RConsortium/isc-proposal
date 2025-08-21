@@ -1,26 +1,29 @@
-# isc-proposal
+# 🚧🚧🚧 UNDER CONSTRUCTION: isc-proposal 🚧🚧🚧
+
+This repository is currently being revisited.
+An update will be released in early September 2025.
 
 [![build-status](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/actions/workflows/publish-proposal.yaml/badge.svg)](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/actions/workflows/publish-proposal.yaml)
 
 This repository is a boilerplate repository that helps you prepare your proposal for the [R Consortium](https://www.r-consortium.org).
 
-## Background 
+## Background
 
 Set up in 2015, the R Consortium is an organisation set up to help support the R Foundation, the R Community, and R users.
 
-> The primary purpose of the R Consortium (collectively, the “Purpose”) is to: 
+> The primary purpose of the R Consortium (collectively, the “Purpose”) is to:
 >
 >(a) advance the worldwide promotion of and support for the R open source language and environment as the preferred language for statistical computing and graphics (the “Environment”);
 >
->(b) establish, maintain, seek support for, and develop infrastructure projects and technical and infrastructure collaboration initiatives related to the Environment, and such other initiatives as may be appropriate to support, enable and promote the Environment; 
+>(b) establish, maintain, seek support for, and develop infrastructure projects and technical and infrastructure collaboration initiatives related to the Environment, and such other initiatives as may be appropriate to support, enable and promote the Environment;
 >
->(c) encourage and increase user adoption, involvement with, and contribution to, the Environment; 
+>(c) encourage and increase user adoption, involvement with, and contribution to, the Environment;
 >
->(d) facilitate communication and collaboration among users and developers of the Environment, the R Consortium and the R Foundation for Statistical Computing (the “R Foundation”); 
+>(d) facilitate communication and collaboration among users and developers of the Environment, the R Consortium and the R Foundation for Statistical Computing (the “R Foundation”);
 >
->(e) support and maintain policies set by the Board; and 
+>(e) support and maintain policies set by the Board; and
 >
->(f) undertake such other activities as may from time to time be appropriate to further the purposes and achieve the goals set forth above.  
+>(f) undertake such other activities as may from time to time be appropriate to further the purposes and achieve the goals set forth above.
 >
 >In furtherance of these efforts, the R Consortium shall seek to solicit the participation of all interested parties on a fair, equitable and open basis.
 
@@ -44,11 +47,11 @@ This is a boilerplate repository that you will need to fork, title appropriately
 
 -   Use the "Use this template" button on GitHub
 -   Create a new repository with a name to reflect your proposal
--   Create a new Rstudio project from version control and use the git URL for the repo
+-   Create a new Positron/RStudio/IDE project from version control and use the git URL for the repo
 -   Write an overview of the proposal instead of this boilerplate for the README
--   Start completing the relevant Rmd pages of the proposal
+-   Start completing the relevant qmd pages of the proposal
 -   Render `isc-proposal.qmd` to build the document locally
--   Regularly commit and push the changes to github
+-   Regularly commit and push the changes to GitHub
 -   Solicit feedback and contributions from others
 
 ### Automatically generate your proposal

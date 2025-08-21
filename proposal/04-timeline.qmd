@@ -1,0 +1,59 @@
+# Project plan
+
+## Start-up phase
+<!--
+Covering the planning phase, this section should provide a relatively
+detailed plan of how work will start on the project. This section is
+important because projects need to get up and running quickly.
+
+
+ - [ ] Setting up collaboration platform inc. code for contributors etc.
+ - [ ] Licence decisions
+ - [ ] Reporting framework
+-->
+
+
+## Technical delivery
+<!--
+Covering the actual delivery of the project this section should
+provide at least a high-level description of the implementation.
+
+Including target dates is really important as you need to be committed
+and the ISC need to have a means of tracking delivery
+-->
+
+## Other aspects
+
+<!--
+How will you ensure that your work is available to the widest number
+of people? Please specify the open-source or creative commons license(s)
+you will use, how you will host your code so that others can contribute,
+and how you will publicize your work. We encourage you to plan content
+to be shared quarterly on the R Consortium blog.
+
+ - [ ] Announcement post
+ - [ ] Delivery blog post
+ - [ ] Social media
+ - [ ] UseR!
+ - [ ] ISC meetings
+-->
+
+## Budget & funding plan
+
+<!--
+Outline the milestones for development and how much funding will be
+required for each stage (as payments will be tied to project milestone
+completion). Each milestone should specify the work to be done and the
+expected outcomes, providing enough detail for the ISC to understand
+the scope of the project work and assess the likelihood of success.
+
+We expect that most of the budget will be allocated
+for labor costs. We do not cover indirect costs. The ISC grants cannot
+cover such things as travel, lodging, food, journal publication fees,
+or personal hardware. Cloud services may be covered if they are specific
+to the project and the project period. The ISC reserves the right to vet
+how funds are used for each project separately. If in doubt, please reach
+out to us.
+-->
+
+## Budget

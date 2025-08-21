@@ -5,7 +5,7 @@ bibliography: references.bib
 # The Problem
 
 ```{=html}
-<!-- 
+<!--
 Outlining the issue / weak point / problem to be solved by this
 proposal. This should be a compelling section that sets the reader up
 for the next section - the proposed solution!
@@ -14,8 +14,10 @@ It is important to cover:
 
  - [ ] What the problem is
  - [ ] Who it affects
- - [ ] Have there been previous attempts to resolve the problem
- - [ ] Why it should be tackled
+ - [ ] Why is it a problem
+ - [ ] What will solving the problem enable (why should it be solved)
+ - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
+ - [ ] If proposing changes to R itself: letter of support from R Core member
 -->
 ```
 

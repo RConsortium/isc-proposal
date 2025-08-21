@@ -1,0 +1,50 @@
+# The proposal
+<!--
+How are you going to solve the problem? Include the concrete actions you
+will take and an estimated timeline. What are likely failure modes and
+how will you recover from them?
+
+This is where the proposal should be outlined.
+-->
+
+## Overview
+<!--
+At a high-level address what your proposal is and how it will address
+the problem identified. Highlight any benefits to the R Community that
+follow from solving the problem. This should be your most compelling
+section.
+
+Include concrete actions you will take and estimated timeline.
+-->
+
+## Detail
+<!--
+Go into more detail about the specifics of the project and how it delivers
+against the problem.
+
+Depending on project type the detail section should include:
+-->
+
+### Minimum Viable Product
+
+<!--
+What is the smallest thing you can build that delivers value to your users?
+-->
+
+### Architecture
+
+<!--
+What does the high-level architecture look like?
+-->
+
+### Assumptions
+
+<!--
+What assumptions are you making that, if proven false, would invalidate the project?
+-->
+
+### External dependencies
+
+<!--
+What external dependencies does the project have (e.g. libraries, services, other projects, etc.)?
+-->

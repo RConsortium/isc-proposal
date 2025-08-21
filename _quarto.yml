@@ -1,0 +1,5 @@
+project:
+  title: "Isc-proposal"
+  render:
+    - "*.qmd"
+    - "!proposal/"
