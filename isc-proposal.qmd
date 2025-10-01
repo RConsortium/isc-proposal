@@ -18,10 +18,8 @@ format:
 bibliography: references.bib
 ---
 
-# 🚧🚧🚧 UNDER CONSTRUCTION 🚧🚧🚧
+_This template was last revised on 2025-08-26_
 
-This repository is currently being revisited.
-An update will be released in early September 2025.
 
 {{< include proposal/00-exec-summary.qmd >}}
 
