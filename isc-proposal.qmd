@@ -18,7 +18,7 @@ format:
 bibliography: references.bib
 ---
 
-_This template was last revised on 2025-08-26_
+_This template was last revised on 2026-03-24._
 
 
 {{< include proposal/00-exec-summary.qmd >}}
