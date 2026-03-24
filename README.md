@@ -32,11 +32,11 @@ Delivery of the technical aspects for R Consortium's projects is overseen by the
 
 Here we detail useful guidance notes on making proposals to the ISC but you should always consult the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) page as there could be updates.
 
-- Try to complete as many of the sections of this boilerplate document as possible. Each section is included either for practical purposes or has been specifically requested by the ISC
-- Add relevant additional sections, like the letter of support from an R Core member if you want a change to R itself
-- Proposals should be 2-5 pages when in PDF form
-- You *can* submit a proposal on your own, but it's really recommended to get engagement from the community (and the ISC) first
-- Proposals should be submitted through the form on the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) page
+- Try to complete as many of the sections of this boilerplate document as possible. Each section is included either for practical purposes or has been specifically requested by the ISC.
+- Add relevant additional sections, like the letter of support from an R Core member if you want a change to R itself.
+- Aim for 500-2500 written words. If the proposal is exceptionally long you risk the chance of it not being read thoroughly.
+- You *can* submit a proposal on your own, but it's really recommended to get engagement from the community (and the ISC) first.
+- Proposals should be submitted through the form on the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) page.
 
 ## Making your proposal
 
