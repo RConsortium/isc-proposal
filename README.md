@@ -38,6 +38,10 @@ Here we detail useful guidance notes on making proposals to the ISC but you shou
 - You *can* submit a proposal on your own, but it's really recommended to get engagement from the community (and the ISC) first.
 - Proposals should be submitted through the form on the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) page.
 
+### Use of AI
+
+We value clarity and authenticity. Please use your own voice to tell your story. While AI tools are welcome for refining your ideas, please prioritize concise, high-impact responses. Avoid lengthy, generic prose; we want to understand the unique heart of your project and why it deserves support.
+
 ## Making your proposal
 
 This is a boilerplate repository that you will need to fork, title appropriately and start filling in.
