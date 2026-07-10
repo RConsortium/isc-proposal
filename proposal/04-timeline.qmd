@@ -41,7 +41,7 @@ to be shared quarterly on the R Consortium blog.
 ## Budget & funding plan
 
 <!--
-Note that the maximum grant is $20k USD. The proposal should be in USD.
+Note that the maximum grant is $10k USD. The proposal should be in USD.
 
 Outline the milestones for development and how much funding will be
 required for each stage (as payments will be tied to project milestone
