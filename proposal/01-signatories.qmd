@@ -12,7 +12,7 @@ are proposed.
 ## Project team
 <!--
 Who are the people responsible for actually delivering the project if
-the proposal gets accepted and are already signed up and rearing to
+the proposal gets accepted and are already signed up and raring to
 go? Briefly describe all participants and the skills they will bring
 to the project. Include public artifacts such as code repositories to
 show their tack record.
